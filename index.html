@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap Project2</title>
+  </head>
+  <body>
+      <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand">Bootstrap Project</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#health" class="nav-link">Health</a>
+              </li>
+              <li class="nav-item">
+                <a href="#workout" class="nav-link">Workout</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+            <!--Showcase-->
+      <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-between">
+            <div class="showcase-left">
+              <h1>Become More <span class="text-warning">Athletic!</span></h1>
+              <p class="lead my-4 showcase-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem explicabo voluptatibus voluptatum officia quaerat architecto esse nesciunt tempore deserunt animi, perferendis, similique qui? Nobis ex quod in doloribus voluptatibus voluptates! </p>
+              <button class="btn btn-primary btn-lg btn-showcase" data-bs-toggle="modal" data-bs-target="#enroll">Start right now!</button>
+            </div>
+            <img class="img-fluid w-50 d-none d-sm-block showcase-right" src="img/Selfie.svg" alt="">
+          </div>
+        </div>
+      </section>
+
+
+      <!--Boxes-->
+        <section class="p-5 bg-primary">
+          <div class="container">
+            <div class="row text-center g-5">
+              <div class="col-md">
+                <div id="boxes" class="card bg-dark text-light">
+                  <div class="card-body text-center ">
+                   <div class="h1 mb-3">
+                    <i class="bi bi-laptop"></i>
+                  </div>
+                <h3  class="card-title mb-3">IT</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa 
+                </p>
+                <a href="#" class="btn btn-primary">Check out!</a>
+                </div>
+               </div>
+              </div>
+              <div class="col-md">
+                <div id="boxes" class="card">
+                  <div class="card-body text-center">
+                   <div class="h1 mb-3">
+                    <i class="bi bi-heart-fill"></i>
+                  </div>
+                <h3 class="card-title mb-3"><span class="text-danger">Workout</span></h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa 
+                </p>
+                <a href="#" class="btn btn-danger">Check out!</a>
+                </div>
+               </div>
+              </div>
+              <div class="col-md">
+                <div  id="boxes" class="card bg-warning ">
+                  <div class="card-body text-center">
+                   <div class="h1 mb-3">
+                    <i class="bi bi-music-note-beamed"></i>
+                  </div>
+                <h3 class="card-title mb-3">Music</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa 
+                </p>
+                <a href="#" class="btn btn-dark">Check out!</a>
+                </div>
+               </div>
+              </div>
+              <div class="col-md">
+                <div id="boxes" class="card bg-info">
+                  <div class="card-body text-center">
+                   <div class="h1 mb-3">
+                    <i class="bi bi-globe"></i>
+                  </div>
+                <h3 class="card-title mb-3">International</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa 
+                </p>
+                <a href="#" class="btn btn-secondary">Check out!</a>
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Learn About Health Section -->
+          <section class="p-5" id="health">
+            <div class="container">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                  <img src="img/health.svg" class="img-fluid health-left" alt="">
+                </div>
+                <div class="col-md p-5 health-right">
+                  <h2>Health is everything!</h2>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat voluptatibus quas, expedita ex amet tenetur deleniti, repellendus placeat necessitatibus illo vero. Delectus labore eveniet laudantium ea error ipsum corrupti placeat.
+                  </p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minus numquam quo mollitia quia vel!</p>
+                  <a href="#" class="btn btn-light mt-5">
+                    <i class="bi bi-chevron-right">Read More</i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--Workout-->
+        <section id="workout" class="p-5 bg-dark text-light">
+          <div class="container">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md p-5 workout-left">
+                <h2>Workout!</h2>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat voluptatibus quas, expedita ex amet tenetur deleniti, repellendus placeat necessitatibus illo vero. Delectus labore eveniet laudantium ea error ipsum corrupti placeat.
+                  </p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur minus numquam quo mollitia quia vel!</p>
+                  <a href="#" class="btn btn-light mt-5">
+                    <i class="bi bi-chevron-right">Read More</i>
+                  </a>
+                </div>
+              <div class="col-md workout-right">
+                  <img src="img/workout.svg" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Question-->
+        <section id="questions" class="p-5">
+          <div class="container">
+            <h2 class="text-center mb-4 q1">Most Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+              <!--Item1-->
+               <div class="accordion-item q2">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+                    How should I start?
+                  </button>
+                </h2>
+              </div>
+                <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                  <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quo ad deserunt et, non eveniet similique, repudiandae reiciendis in itaque dignissimos doloribus incidunt. Neque optio minus quibusdam assumenda tenetur adipisci temporibus facilis! Eius quasi aperiam repellendus deleniti quis esse omnis excepturi recusandae, odio voluptatum maiores corrupti consequuntur reiciendis! Quam, consectetur?</div>
+                </div>
+              <!--Item2-->
+               <div class="accordion-item q3">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+                    Which sport should I choose?
+                  </button>
+                </div>
+                </h2>
+                <div id="question-two" class="accordion-collapse collapse"data-bs-parent="#questions">
+                  <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor obcaecati odit consequuntur iste recusandae quisquam iure dolores saepe fuga, optio porro velit incidunt atque fugit soluta facere. Dignissimos, odio ullam.</div>
+                </div>
+              <!--Item3-->
+               <div class="accordion-item q4">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+                    What to do with lack of motivation?
+                  </button>
+                </div>
+                </h2>
+                <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                  <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nemo asperiores expedita molestias incidunt sapiente itaque nulla unde labore nihil. Nostrum vitae, architecto doloribus voluptates sapiente quas non perspiciatis dolorem porro quibusdam quia dolorum error nihil reiciendis fuga sed explicabo!</div>
+                </div>
+            </div>
+          </div>
+        </section>
+        
+        <!--Trainers-->
+      <section id="trainers" class="p-5 bg-primary">
+        <div class="container">
+          <div class="trainer-header ">
+            <h2 class="text-center text-white">Our Trainers</h2>
+            <p class="lead text-center text-white mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, repellat.</p>
+           </div>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-3 trainer1">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img src="https://randomuser.me/api/portraits/men/22.jpg" class="rounded-circle mb-4" alt="">
+                    <h3 class="card-title mb-4">Bobbie Evelina</h3>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, mollitia.</p>
+                    <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                    <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 trainer2">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img src="https://randomuser.me/api/portraits/women/25.jpg" class="rounded-circle mb-4" alt="">
+                    <h3 class="card-title mb-4">Valentina Gauri</h3>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, mollitia.</p>
+                    <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                    <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 trainer3">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img src="https://randomuser.me/api/portraits/women/3.jpg" class="rounded-circle mb-4" alt="">
+                    <h3 class="card-title mb-4">Dora Senta</h3>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, mollitia.</p>
+                    <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                    <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3 trainer4">
+                <div class="card bg-light">
+                  <div class="card-body text-center">
+                    <img src="https://randomuser.me/api/portraits/men/15.jpg" class="rounded-circle mb-4" alt="">
+                    <h3 class="card-title mb-4">Bedros Eduard</h3>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, mollitia.</p>
+                    <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                    <a href=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                    <a href=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+              <!--Newsletter-->
+
+      <section id="newsletter" class="p-5">
+        <div class="container">
+          <div class="d-md-flex justify-content-between align-items-center">
+            <div class="card bg-primary text-light">
+              <div class="card-body">
+                <h3 class="mb-3 mb-md-0">Help yourself today, don`t waste more time!</h3>
+              </div>
+            </div>
+
+            <div id="contact" class="input-group news-input">
+              <input type="text" class="form-control" placeholder="Enter Email">
+              <div class="input-group-append">
+                <button class="btn btn-dark btn-lg" type="button">Learn more!</button>
+              </div>
+            </div>
+           </div>
+        </div>
+      </section>
+
+        <!--Footer-->
+        <footer class="p-5 bg-dark text-white text-center">
+          <div class="container">
+            <p class="lead">Copyright &copy; 2021 Projekt2</p>
+          </div>
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="enrollLabel">Register</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+              <div class="modal-body">
+
+                <!--Form inside Modal-->
+            <form>
+          <div class="d-flex flex-row">
+            <div class="form-group">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group pl-3 ms-auto">
+              <label for="inputPassword4">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="d-flex flex-row">
+            <div class="form-group">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group px-3">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>...</option>
+                <option>xyz</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+              </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                 <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      window.sr = ScrollReveal();
+      //Showcase
+      sr.reveal('.showcase-left', {
+        duration: 2000,
+        origin:'left',
+        distance: '300px'
+      })
+
+      sr.reveal('.btn-showcase', {
+        duration: 2000,
+        delay: 1000,
+        origin: 'bottom',
+        distance: '100px'
+      })
+
+      sr.reveal('.showcase-right', {
+        duration: 2000,
+        origin: 'right',
+        distance: '300px'
+      })
+      //Boxes
+      sr.reveal('#boxes', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '300px',
+        viewFactor: 0.3
+      })
+      //Health
+      sr.reveal('.health-left', {
+        duration: 2000,
+        origin: 'left',
+        distance: '300px'
+      })
+      sr.reveal('.health-right', {
+        duration: 2000,
+        origin: 'right',
+        distance: '300px',
+        viewFactor: 0.3
+        //Workout
+      })
+      sr.reveal('.workout-left', {
+        duration: 2000,
+        origin: 'left',
+        distance: '300px',
+        viewFactor: 0.3
+
+      })
+      sr.reveal('.workout-right', {
+        duration: 2000,
+        origin: 'right',
+        distance: '300px',
+        viewFactor: 0.3
+
+      })
+      //Questions
+      sr.reveal('.q1', {
+        duration: 2000,
+
+        origin: 'left',
+        distance: '300px',
+        viewFactor: 0.3
+
+      })
+      sr.reveal('.q2', {
+        duration: 2000,
+        delay: 400,
+        origin: 'left',
+        distance: '300px',
+        viewFactor: 0.3
+
+      })
+      sr.reveal('.q3', {
+        duration: 2000,
+        delay: 600,
+        origin: 'left',
+        distance: '300px',
+        viewFactor: 0.3
+
+      })
+      sr.reveal('.q4', {
+        duration: 2000,
+        delay: 700,
+        origin: 'left',
+        distance: '300px',
+        viewFactor: 0.3
+      })
+
+      sr.reveal('.trainer-header', {
+        duration: 2000,
+        viewFactor: 0.3
+      })
+      // Trainers
+      sr.reveal('.trainer1', {
+        duration: 2000,
+        origin: 'right',
+        distance: '900px',
+        viewFactor: 0.3
+      })
+        sr.reveal('.trainer2', {
+        duration: 2000,
+        delay: 500,
+        origin: 'right',
+        distance: '800px',
+        viewFactor: 0.3
+      })
+        sr.reveal('.trainer3', {
+        duration: 2000,
+        delay: 700,
+        origin: 'right',
+        distance: '700px',
+        viewFactor: 0.3
+      })
+        sr.reveal('.trainer4', {
+        duration: 2000,
+        delay: 850,
+        origin: 'right',
+        distance: '600px',
+        viewFactor: 0.3
+      })
+      // Newsletter
+      sr.reveal('#newsletter', {
+        duration: 2000,
+        viewFactor: 0.3
+      })
+
+
+
+
+
+    </script>
+
+  </body>
+</html>
